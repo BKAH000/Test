@@ -80,3 +80,5 @@ let accumulate(f:'T -> 'T, l:list<'T>):list<'T> = [for i in l do yield f(i)]
 accumulate((fun x -> x*x), [1..2]) |> printfn "%A"
 
 Console.ReadKey() |> ignore
+
+//help me
